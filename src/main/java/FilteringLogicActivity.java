@@ -62,7 +62,7 @@ public class FilteringLogicActivity {
         /**
          * Problem 1: Write a statement that will query the above table for all employees named 'Steve' who earn
          * more than $75,000.
-         */
+         */ 
         String sql = FileUtil.parseSQLFile("problem1.sql");
 
 
@@ -89,7 +89,7 @@ public class FilteringLogicActivity {
          * than $50,000
          */
         String sql = FileUtil.parseSQLFile("problem2.sql");
-
+        
 
         //The following code will execute your statement on the database
         Set<Employee> resultsSet = new HashSet<>();
@@ -115,7 +115,7 @@ public class FilteringLogicActivity {
          * Hint: Look up the NOT and IN logical operators.
          */
         String sql = FileUtil.parseSQLFile("problem3.sql");
-
+        
 
         //The following code will execute your statement on the database
         Set<Employee> resultsSet = new HashSet<>();
